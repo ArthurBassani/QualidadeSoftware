@@ -1,3 +1,20 @@
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* espaçamento entre os itens */
+  list-style-type: none;
+  padding: 0;
+  margin: 40px;
+}
+
+ul li {
+  margin-bottom: 20px; /* ajusta a margem inferior */
+}
+.btn {
+  size: 120rem;
+  border-radius: 8;
+  width: 100%;
+}
 .items {
   display: flex;
   gap: 1rem;
@@ -9,10 +26,7 @@
   align-items: center;
   justify-content: center;
 }
-.btn {
-  size: 120rem;
-  border-radius: 8;
-}
+
 body {
   background-color: rgb(5, 45, 97);
   color: aliceblue;

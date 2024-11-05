@@ -11,14 +11,35 @@
   </head>
   <body>
     <div class="container">
-      <div class="items">
-        <h1>CLICKS:</h1>
-        <h1 class="contador">0</h1>
-      </div>
+      <ul class="lista">
+        <li>
+          <input
+            type="text"
+            id="num1"
+            placeholder="Informe número 1"
+          />
+        </li>
+        <li>
+          <input
+            type="text"
+            id="num2"
+            placeholder="Informe número 2"
+          />
+        </li>
+        <button class="btn">CALCULAR</button>
+      </ul>
     </div>
     <div class="container">
-      <button class="btn">APERTE PARA SOMAR</button>
+      <ul class="resultados">
+        <li id="soma">Soma:</li>
+        <li id="sub">Subtração:</li>
+        <li id="mult">Multiplicação:</li>
+      </ul>
     </div>
+    <div class="container">
+      <li id="div">Divisão:</li>
+    </div>
+
     <script src="assets/js/main.js"></script>
   </body>
 </html>
